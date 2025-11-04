@@ -1,7 +1,7 @@
-<h1 align="left">Simple Stack</h1>
+<h1 align="left">SimpleStack</h1>
 <br/>
 
-Simple Stack is a free and simplistic [content management system](https://en.wikipedia.org/wiki/Content_management_system) conceived to be used as boilerplate or starting point to create full-stack web applications using Go, HTMX and PostgreSQL.
+SimpleStack is a free and simplistic [content management system](https://en.wikipedia.org/wiki/Content_management_system) conceived to be used as boilerplate or starting point to create full-stack web applications using Go, HTMX and PostgreSQL.
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/kevinsuner/simple-stack)](https://github.com/kevinsuner/simple-stack/blob/master/go.mod)
 [![License](https://img.shields.io/github/license/kevinsuner/simple-stack)](https://github.com/kevinsuner/simple-stack/blob/master/LICENSE)
@@ -9,7 +9,7 @@ Simple Stack is a free and simplistic [content management system](https://en.wik
 ---
 
 <p align="center">
-    <kbd><img src="https://i.postimg.cc/02jfSZnx/simplestack-screenshot.png" alt="Simple Stack Screenshot" title="Simple Stack Screenshot"/></kbd>
+    <kbd><img src="https://i.postimg.cc/02jfSZnx/simplestack-screenshot.png" alt="SimpleStack Screenshot" title="SimpleStack Screenshot"/></kbd>
 </p>
 
 ---
@@ -22,7 +22,7 @@ new tools was a lot of added complexity.
 
 Not long after that I decided to focus solely on the back-end side of things, even though I liked (and still like) the front-end. Fast-forward to this day and apparently we've come full circle and realized that maybe??? all of this complexity wasn't needed (or even desirable) and that sending plain html to the client instead of JSON works for a lot of use cases.
 
-After seeing this sort of back-to-basics movement that started to emerge in the tech community, I decided that I wanted to work on a full-stack web application again, just not with PHP nor Javascript but Go. Thanks to [ThePrimeagen](https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw) I discovered [HTMX](https://htmx.org) and from there Simple Stack was born and my desire to work on the front-end resurrected :) 
+After seeing this sort of back-to-basics movement that started to emerge in the tech community, I decided that I wanted to work on a full-stack web application again, just not with PHP nor Javascript but Go. Thanks to [ThePrimeagen](https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw) I discovered [HTMX](https://htmx.org) and from there SimpleStack was born and my desire to work on the front-end resurrected :) 
 
 **NOTE**: In any way I underappreciate the effort that a lot of people way smarter than me have put in developing these new frameworks, but they just aren't for me, I prefer a more "rudimental" approach, that all. 
 
@@ -62,7 +62,7 @@ Fixes #1234
 ```
 
 ### Fetching the source from Github
-Simple Stack uses the Go modules support built into Go 1.11 to build. The easiest is to clone RunGo in a directory outside of `GOPATH`,
+SimpleStack uses the Go modules support built into Go 1.11 to build. The easiest is to clone SimpleStack in a directory outside of `GOPATH`,
 as in the following example:
 ```bash
 mkdir $HOME/src
@@ -71,7 +71,7 @@ git clone https://github.com/kevinsuner/simple-stack
 cd simple-stack 
 ```
 
-Now, to make a change to Simple Stack's source:
+Now, to make a change to SimpleStack's source:
 1. Create a new branch for your changes (the branch name is arbitrary):
     ```bash
     git checkout -b abc123
@@ -80,7 +80,7 @@ Now, to make a change to Simple Stack's source:
     ```bash
     git commit -a -v
     ```
-3. Fork Simple Stack in Github
+3. Fork SimpleStack in Github
 4. Add your fork as a new remote (the remote name, "foo" in this example, is arbitrary):
     ```bash
     git remote add git@github.com:USERNAME/simple-stack.git
@@ -91,14 +91,14 @@ Now, to make a change to Simple Stack's source:
     ```
 6. You are now ready to submit a PR based upon the new branch in your forked repository
 
-### Building Simple Stack with your changes
-Prerequisites to build Simple Stack from source:
+### Building SimpleStack with your changes
+Prerequisites to build SimpleStack from source:
 - [Go 1.21](https://go.dev/dl) or later
 
 Run the command `go build` to build the binary. 
 
 ## Credits
-Simple Stack makes use of a variety of open-source projects including:
+SimpleStack makes use of a variety of open-source projects including:
 - [github.com/golang/go](https://github.com/golang/go)
 - [github.com/bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
 - [github.com/postgres](https://github.com/postgres)
